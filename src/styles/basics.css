@@ -215,7 +215,7 @@ li {
 .footer {
     display: flex;
     background-color: var(--ai-create-color-theme-900);
-    border-top: 1px solid white;
+    border-top: 1px solid var(--ai-create-color-theme-600);
 }
 
 .footer-item-links {
@@ -280,8 +280,8 @@ li {
 .fa,
 .fa-solid,
 .fa-brands {
-    font-size: 24px;
-    color: #fff;
+    font-size: 18px;
+    /* color: #fff; */
     margin: 10px 10px 10px 0px;
 }
 
