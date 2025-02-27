@@ -99,7 +99,7 @@ li {
 
 .navbar {
     min-height: 60px;
-    max-height: 80px;
+    max-height: 90px;
     align-items: center;
     top: 0;
     left: 0;
@@ -334,7 +334,7 @@ li {
     .navbar {
         /* background-color: transparent; */
         position: fixed;
-        height: 100px;
+        /* height: 100px; */
         border-bottom-right-radius: 22% 12%;
         border-bottom-left-radius: 22% 12%;
         display: flex;
