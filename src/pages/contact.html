@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../contact/contact.css">
+    <link rel="website icon" type="png" href="../images/haurimton-logo2021.jpeg">
+    <h1 id="top"></h1>
+    <title>Contactanos</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="../index/index.html"><img src="../images/logo_haurimton.png" alt="." class="logo"></a>
+            <ul class="navmenu">
+                <li class="nav-item"><a href="../index/index.html" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="../about/about.html" class="nav-link">Sobre Nosotros</a></li>
+                <li class="nav-item"><a href="../services/services.html" class="nav-link">Servicios</a></li>
+                <li class="nav-item"><a href="../products/products.html" class="nav-link">Productos</a></li>
+                <li class="nav-item"><a href="../contact/contact.html" class="nav-link">Contactanos</a></li>
+            </ul>
+            <div class="hamburguer">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <script src="../js-files/menu.js"></script>
+
+    <div class="contact-title">
+        <h2>Contactenos</h2>
+    </div>
+
+    <div class="box">
+        <div class="contact-form">
+            <form action="https://formspree.io/f/xqkozdgy" method="POST">
+                <div class="row">
+                    <div class="inputBox">
+                        <input type="text" required name="Nombre">
+                        <span>Nombre:</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" required name="Apellido">
+                        <span>Apellido:</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="inputBox">
+                        <input type="tel" required name="Número de teléfono" required="required">
+                        <span>Teléfono:</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="email" required name="Correo electronico" autocomplete="email" required="required">
+                        <span>Correo electronico:</span>
+                    </div>
+                </div>
+                <label for="message">Mensaje:</label><br>
+                <textarea id="message" required name="Mensaje"></textarea><br>
+                <input type="submit" id="send-btn" value="Enviar Mensaje">
+            </form>
+        </div>
+        <div class="container">
+            <div class="information">
+                <div class="info">
+                    <h3 id="contact">Contáctanos</h3>
+                    <a style="text-decoration: none; color: #fff;" target="_blank" href="mailto:gerencia@haurimton.com">
+                        <p class="mail"><i class="fa">&#xf0e0;</i>gerencia@haurimton.com</p>
+                    </a>
+                    <p class="phone"><i class="fa">&#xf2b9;</i>+57(320)-302-9414 / (601)-879-5279</p>
+                    <a class="in" target="_blank" href="https://www.linkedin.com/in/haurimton-de-colombia-s-a-s-9649a234"><i
+                            class="fa">&#xf08c;</i>Linkedin</a>
+                </div>
+                <div class="address">
+                    <h3 class="contact">Ubícanos</h3>
+                    <br>
+                    <p><i class="fa">&#xf041;</i>Carrera 16C No. 7 - 29. Cajica, Cundinamarca</p>
+                    <p><i class="fa">&#xf041;</i>Calle 2B # 31D-26. Bogotá, Bogotá</p>
+                </div>
+            </div>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15900.312128005571!2d-74.03687919999996!3d4.926606300000007!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe2a1e7dc5f71383e!2sHaurimton%20de%20Colombia%20S.A.S!5e0!3m2!1sen!2sco!4v1671715298718!5m2!1sen!2sco"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <a href="#top" id="topbtn">Volver arriba</a>
+    <a href="https://wa.link/1q1bap" target="_blank"><img id="whabtn" src="../images/whaicon.webp" alt=""></a>
+    <script src="../js-files/backtotop.js"></script>
+</body>
+</html>
