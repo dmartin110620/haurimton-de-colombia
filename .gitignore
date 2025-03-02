@@ -1,1 +1,4 @@
 node_modules
+src/styles/index.css
+src/styles/about.css
+src/styles/services.css
