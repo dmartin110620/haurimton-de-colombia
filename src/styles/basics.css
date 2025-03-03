@@ -111,7 +111,7 @@
 }
 
 .hamburguer {
-    display: flex;
+    display: none;
     cursor: pointer;
 }
 
@@ -375,7 +375,7 @@
         float: right;
         justify-content: center;
         align-items: center;
-        margin: 40px;
+        /* margin: 40px; */
         background-color: transparent;
         /* transform: translateY(-20px); */
     }
