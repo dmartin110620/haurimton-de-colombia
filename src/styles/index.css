@@ -1,5 +1,6 @@
 /* Setup Tailwindcss */
 /* ! tailwindcss v3.3.5 | MIT License | https://tailwindcss.com */
+@import "tailwindcss";
 *,
 ::after,
 ::before {
@@ -994,6 +995,11 @@ video {
 .px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem
+}
+
+.px-7 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
 }
 
 .py-10 {
