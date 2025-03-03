@@ -1,0 +1,7 @@
+@import "./about.css";
+@import "./basics.css";
+@import "./contact.css";
+@import "./index.css";
+@import "./services.css";
+
+@import "tailwindcss";
