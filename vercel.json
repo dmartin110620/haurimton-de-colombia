@@ -8,6 +8,7 @@
   "routes": [
     { "src": "/(.*)", "dest": "/public/$1" }
   ],
+  "trailingSlash": false,
   "redirects": [
     { "source": "/about.html", "destination": "/about", "permanent": true },
     { "source": "/services.html", "destination": "/services", "permanent": true },
