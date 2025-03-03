@@ -34,19 +34,20 @@ style="--ai-create-color-theme-50: #E8F7FF; --ai-create-color-theme-100: #BAE4FF
     <script src="./js/menu.js"></script>
 
 
-    <div class="box flex flex-wrap justify-between items-center w-full h-auto border border-gray-300 p-4">
-        <div class="contact-form mt-20 px-16 border border-gray-300 w-full md:w-[48%]">
+    <div class="contact-title">
+        <h2>Contactenos</h2>
+    </div>
+    
+    <div class="box">
+        <div class="contact-form">
             <form action="https://formspree.io/f/xqkozdgy" method="POST">
-                <div class="py-16 text-2xl text-center font-semibold">
-                    Contactenos
-                </div>
                 <div class="row">
                     <div class="inputBox">
-                        <input type="text" required name="Nombre">
+                        <input type="text" required name="Nombre" required="required">
                         <span>Nombre:</span>
                     </div>
                     <div class="inputBox">
-                        <input type="text" required name="Apellido">
+                        <input type="text" required name="Apellido" required="required">
                         <span>Apellido:</span>
                     </div>
                 </div>
@@ -65,7 +66,7 @@ style="--ai-create-color-theme-50: #E8F7FF; --ai-create-color-theme-100: #BAE4FF
                 <input type="submit" id="send-btn" value="Enviar Mensaje">
             </form>
         </div>
-        <div class="container  border border-gray-300 w-full md:w-fit">
+        <div class="container">
             <div class="information">
                 <div class="info">
                     <h3 id="contact">Contáctanos</h3>

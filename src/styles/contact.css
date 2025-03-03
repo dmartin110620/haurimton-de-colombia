@@ -54,16 +54,17 @@ li {
 
 
 .contact-title {
-    margin: 4rem 0 0 2rem;
-    font-size: 1.4rem;
-    text-align: left;
+    margin-top: 170px;
+    font-size: 1.5rem;
+    text-align: center;
     font-weight: 600;
+    letter-spacing: 0.1em;
 }
 
 .contact-form {
     grid-area: main;
-    /* margin: 70px 90px 0px 80px; */
-    /* width: 790px; */
+    margin: 70px 90px 0px 80px;
+    width: 790px;
 }
 
 .inputBox {
@@ -101,8 +102,8 @@ li {
     text-transform: capitalize;
 }
 
-.inputBox input:valid ~ span,
-.inputBox input:focus ~ span {
+.inputBox input:valid~span,
+.inputBox input:focus~span {
     color: #fff;
     transform: translate(10px) translateY(-10px);
     font-size: 0.65em;
@@ -141,7 +142,10 @@ textarea {
 }
 
 .box {
-    grid-template-areas: "main main first";
+    position: relative;
+    display: grid;
+    grid-template-areas:
+        "main main first";
 }
 
 .information {
@@ -167,7 +171,7 @@ textarea {
 }
 
 .container {
-    /* margin: 50px 0px 50px 0px; */
+    margin: 50px 0px 50px 0px;
 }
 
 .information:nth-child(1) {
@@ -257,7 +261,7 @@ textarea {
         width: 730px;
         margin: 60px 30px 0px 30px;
     }
-    
+
     .inputBox {
         width: 300px;
     }
@@ -353,15 +357,15 @@ textarea {
     }
 }
 
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 1050px) {
     .box {
         grid-template-areas:
-        "main"
-        "sidebar";
-        /* padding-bottom: 0px; */
-        /* margin-bottom: 0px; */
+            "main"
+            "sidebar";
+        padding-bottom: 0px;
+        margin-bottom: 0px;
     }
-    
+
     .information {
         display: block;
         width: 100%;
@@ -371,7 +375,7 @@ textarea {
         border-top-right-radius: 12% 8%;
         background-color: var(--secondaryColor);
     }
-    
+
     .map {
         height: 400px;
         display: grid;
@@ -382,14 +386,14 @@ textarea {
     }
 
     .map iframe {
-        width:800px;
+        width: 800px;
         height: 330px;
     }
 
     #contact {
         padding-top: 20px;
     }
-    
+
     .contact-form {
         margin-left: auto;
         margin-right: auto;
@@ -401,7 +405,7 @@ textarea {
     .inputBox {
         width: 400px;
     }
-    
+
     textarea {
         width: 830px;
     }
@@ -449,7 +453,17 @@ textarea {
         width: 45px;
         margin-bottom: 10px;
     }
-    
+
+    #address {
+        margin-bottom: 30px;
+    }
+
+    #logo {
+        translate: -40px;
+        width: 225px;
+        margin: 15px;
+    }
+
     .contact-title {
         margin-top: 120px;
         letter-spacing: normal;
@@ -515,7 +529,7 @@ textarea {
         display: block;
         width: 480px;
     }
-    
+
     .inputBox {
         width: 480px;
         display: flex;
@@ -612,8 +626,8 @@ textarea {
     textarea {
         width: 325px;
     }
-    
-    .map  iframe{
+
+    .map iframe {
         width: 350px;
     }
 }
