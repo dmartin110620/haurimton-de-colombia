@@ -7,6 +7,12 @@
   ],
   "routes": [
     { "src": "/(.*)", "dest": "/public/$1" }
+  ],
+  "redirects": [
+    { "source": "/about.html", "destination": "/about", "permanent": true },
+    { "source": "/services.html", "destination": "/services", "permanent": true },
+    { "source": "/contact.html", "destination": "/contact", "permanent": true },
+    { "source": "/index.html", "destination": "/", "permanent": true }
   ]
   
 
