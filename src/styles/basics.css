@@ -319,9 +319,8 @@
     } */
 
     .navbar {
-        /* background-color: transparent; */
         position: fixed;
-        height: 100px;
+        height: 150px;
         border-bottom-right-radius: 22% 12%;
         border-bottom-left-radius: 22% 12%;
         display: flex;
@@ -364,8 +363,7 @@
     }
 
     .navmenu {
-        margin-top: 40px;
-        /* 40px to show full logo */
+        margin-top: 35px;
         margin-right: 2%;
         float: right;
     }
@@ -375,9 +373,7 @@
         float: right;
         justify-content: center;
         align-items: center;
-        /* margin: 40px; */
         background-color: transparent;
-        /* transform: translateY(-20px); */
     }
 
     .hamburguer.active .bar:nth-child(2) {
@@ -414,17 +410,15 @@
     }
 
     .navmenu.active {
-        top: 25px;
+        top: 20px;
         z-index: -2;
         background-color: rgba(255, 255, 255, 0.95);
     }
 
     .logo {
-        position: fixed;
         top: 10px;
         margin: 0%;
-        width: 70px;
-        max-width: 70px;
+        width: 50px;
     }
 
     .images {
