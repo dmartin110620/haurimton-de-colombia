@@ -111,7 +111,7 @@
 }
 
 .hamburguer {
-    display: none;
+    display: flex;
     cursor: pointer;
 }
 
