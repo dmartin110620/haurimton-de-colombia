@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"
-style="--ai-create-color-theme-50: #E8F7FF; --ai-create-color-theme-100: #BAE4FF; --ai-create-color-theme-200: #8BCFFF; --ai-create-color-theme-300: #5DB6FF; --ai-create-color-theme-400: #2E9AFF; --ai-create-color-theme-500: #007BFF; --ai-create-color-theme-600: #0063DB; --ai-create-color-theme-700: #004CB8; --ai-create-color-theme-800: #003994; --ai-create-color-theme-900: #002770; --ai-create-color-theme-950: #00184D; --custom-heading-font: Montserrat, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; --custom-body-font: Roboto, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'"
-    class="fontawesome-i2svg-active fontawesome-i2svg-complete">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,9 +8,15 @@ style="--ai-create-color-theme-50: #E8F7FF; --ai-create-color-theme-100: #BAE4FF
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../../src/styles/contact.css">
     <link rel="stylesheet" href="./styles/output.css">
-    <link rel="website icon" type="png" href="../../src/assets/logo_haurimton.png">
+    <link rel="icon" href="https://cdn.wegic.ai/assets/onepage/thread/icon/0394c055-52cd-4cf0-9d87-3067dadcf0f9.png">
     <h1 id="top"></h1>
-    <title>Contactanos</title>
+    <title>Contactanos - Haurimton de Colombia</title>
+    <meta name="description" content="Empresa dedicada a la inyección de plásticos y fabricación de moldes personalizados.">
+    <meta property="og:title" content="Haurimton de Colombia">
+    <meta property="og:description"
+        content="Empresa dedicada a la inyección de plásticos y fabricación de moldes personalizados.">
+    <meta property="og:image"
+        content="https://cdn.wegic.ai/assets/onepage/thread/thumbnail/1894135377781530625/1740433981619.png">
 </head>
 <body>
     <header>
@@ -34,19 +38,20 @@ style="--ai-create-color-theme-50: #E8F7FF; --ai-create-color-theme-100: #BAE4FF
     <script src="./js/menu.js"></script>
 
 
-    <div class="box flex flex-wrap justify-between items-center w-full h-auto border border-gray-300 p-4">
-        <div class="contact-form mt-20 px-16 border border-gray-300 w-full md:w-[48%]">
+    <div class="contact-title">
+        <h2>Contactanos</h2>
+    </div>
+    
+    <div class="box">
+        <div class="contact-form">
             <form action="https://formspree.io/f/xqkozdgy" method="POST">
-                <div class="py-16 text-2xl text-center font-semibold">
-                    Contactenos
-                </div>
                 <div class="row">
                     <div class="inputBox">
-                        <input type="text" required name="Nombre">
+                        <input type="text" required name="Nombre" required="required">
                         <span>Nombre:</span>
                     </div>
                     <div class="inputBox">
-                        <input type="text" required name="Apellido">
+                        <input type="text" required name="Apellido" required="required">
                         <span>Apellido:</span>
                     </div>
                 </div>
@@ -65,7 +70,7 @@ style="--ai-create-color-theme-50: #E8F7FF; --ai-create-color-theme-100: #BAE4FF
                 <input type="submit" id="send-btn" value="Enviar Mensaje">
             </form>
         </div>
-        <div class="container  border border-gray-300 w-full md:w-fit">
+        <div class="container">
             <div class="information">
                 <div class="info">
                     <h3 id="contact">Contáctanos</h3>
