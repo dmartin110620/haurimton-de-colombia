@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "./basics.css";
 
 * {
     margin: 0;
