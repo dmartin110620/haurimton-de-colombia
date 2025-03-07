@@ -181,16 +181,19 @@
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
+    border-radius: 10px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
+    border-radius: 10px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: var(--ai-create-color-theme-900)
+    background: var(--ai-create-color-theme-900);
+    border-radius: 10px;
 }
 
 /* Handle on hover */
@@ -215,7 +218,6 @@
     align-content: center;
     text-align: left;
     text-decoration: none;
-    /* border: 2px red solid; */
 }
 
 .footer-item-links a {
@@ -241,7 +243,6 @@
     margin-left: 10px;
     margin-top: 15px;
     width: 85%;
-    /* border: 2px red solid; */
 }
 
 .info {
@@ -255,21 +256,18 @@
 #mail {
     margin-left: 10px;
     margin-top: 20px;
-    /* border: 2px red solid; */
 }
 
 #phone {
     margin-left: 10px;
     width: 80%;
     text-align: left;
-    /* border: 2px red solid; */
 }
 
 .fa,
 .fa-solid,
 .fa-brands {
     font-size: 18px;
-    /* color: #fff; */
     margin: 10px 10px 10px 0px;
 }
 
@@ -294,7 +292,6 @@
     margin-top: 30px;
     color: #fff;
     text-transform: uppercase;
-    /* border: 2px red solid; */
 }
 
 /* Footer config ends */

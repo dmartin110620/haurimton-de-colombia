@@ -1227,6 +1227,11 @@ video {
         padding-right: 2rem
     }
 
+    .md\:px-12 {
+        padding-left: 3rem;
+        padding-right: 3rem
+    }
+
     .md\:py-32 {
         padding-top: 8rem;
         padding-bottom: 8rem
