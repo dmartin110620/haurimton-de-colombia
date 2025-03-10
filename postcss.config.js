@@ -1,6 +1,6 @@
 module.exports = {
   plugins: [
-    require("@tailwindcss/postcss"), // Use the new package instead of "tailwindcss"
+    require("@tailwindcss/postcss"),
     require("postcss-merge-rules"),
     require("autoprefixer"),
   ],

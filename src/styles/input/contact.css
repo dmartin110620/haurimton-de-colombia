@@ -220,9 +220,7 @@ textarea {
 }
 
 @media screen and (min-height: 890px) and (min-width: 1000px) {
-
     .contact-title {
-        /* margin-top: 230px; */
         font-size: 1.6rem;
     }
 
